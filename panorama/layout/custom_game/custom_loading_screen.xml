@@ -1,0 +1,72 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+		<include src="file://{resources}/styles/custom_game/toggle_bot.css" />
+		<include src="file://{resources}/styles/custom_game/toggle_gold.css" />
+		<include src="file://{resources}/styles/dotastyles.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/simple_panel_animation.js" /> 
+		<include src="file://{resources}/scripts/custom_game/toggle_bot.js" />
+		<include src="file://{resources}/scripts/custom_game/toggle_options.js" />
+	</scripts>
+	<Panel class="AddonLoadingRoot">
+		<Panel id="CustomBg" >
+			<Image src="file://{images}/custom_game/loading_screen/warsidetest.png" scaling="stretch-to-fit-preserve-aspect" />
+			<Panel id="HideOn"/>
+			<Button id="ToggleOptions" class="ToggleOptions" onactivate="OnOptionsPressed()" onload="SetMainOption()">
+				<Label id="LabelOptionsText" text="Options"/>
+			</Button>
+			<Panel id="BotsOnOff" class="ToggleButton">
+				<Button id="Button" onactivate="OnButtonPressed()">
+					<Label id="Label" text="Bots:"/>
+					<Label id="LabelGreen"/>
+					<Label id="LabelRed" text="                    OFF"/>
+				</Button>
+			</Panel>
+			<Panel id="BotOptionsPanel">
+				<Label id="LabelDif" text="BOT DIFFICULTY" />
+				<Panel id="ExpOptionsPanel" class="GameOptionsSubPanel">
+					<DropDown id="DifficultyOptionsDropdown" class="GameOptionsDropdown" onload="SetMainOption()">
+						<Label text="Passive" id="BotsOption1"/>
+						<Label text="Easy" id="BotsOption2"/>
+						<Label text="Medium" id="BotsOption3"/>
+						<Label text="Hard" id="BotsOption4" />
+						<Label text="Unfair" id="BotsOption5"/>
+					</DropDown>
+				</Panel>
+			</Panel>
+			<Button id="ConfirmOptionsBtn" onactivate="SetGameOptions()"> <!--OnLockAndStartPressed()-->
+				<Label id="ConfirmOptionsBtnLabel" text="Confirm Options" />
+			</Button>
+			<Panel id="GoldOptionsPanel">
+				<Label id="LabelGoldText" text="GAME OPTIONS" />
+				<Label id="LabelStartingGoldText" text="Starting Gold" />
+					<DropDown id="StartingOptionsDropdown" class="GoldOptionsDropdown" onload="SetMainOption()">
+						<Label text="600" id="GoldOption1"/>
+						<Label text="1000" id="GoldOption2"/>
+						<Label text="1400" id="GoldOption3"/>
+						<Label text="1800" id="GoldOption4" />
+						<Label text="2200" id="GoldOption5"/>
+					</DropDown>
+				<Label id="LabelGoldMultiplierText" text="Gold Multiplier" />
+					<DropDown id="MultiplierOptionsDropdown" class="GoldOptionsDropdown" onload="SetMainOption()">
+						<Label text="1x" id="MultiplierOption1" />
+						<Label text="2x" id="MultiplierOption2" />
+						<Label text="3x" id="MultiplierOption3" />
+						<Label text="4x" id="MultiplierOption4" />
+					</DropDown>
+				<Label id="LabelXpMultiplierText" text="EXP Multiplier" />
+					<DropDown id="ExpOptionsDropdown" class="GoldOptionsDropdown" onload="SetMainOption()">
+						<Label text="1x" id="ExpOption1" />
+						<Label text="2x" id="ExpOption2" />
+						<Label text="3x" id="ExpOption3" />
+						<Label text="4x" id="ExpOption4" />
+					</DropDown>
+			</Panel>
+		</Panel>
+		<Panel id="TitlePanel">
+			<Label id="AddonTitle" text="#addon_game_name" style="" />
+		</Panel>
+	</Panel>
+</root>

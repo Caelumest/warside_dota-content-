@@ -1,0 +1,89 @@
+#GoldOptionsPanel
+{
+    margin-top: 120px;
+    margin-left: 120px;
+    text-align: center;
+    width: 260px;
+    height: 340px;
+    background-color: #333333;
+    border-radius:15px;
+    flow-children: down;
+    transition-property: opacity;
+    transition-delay: 0.0s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    border: 2px solid #000;
+}
+
+#ToggleOptions
+{
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    background-color: #333333;
+    border-radius:15px;
+    flow-children: down;
+    transition-property: opacity;
+    transition-delay: 0.0s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    border: 3px solid #111;
+}
+#ToggleOptions:hover
+{
+    background-color: #888888;
+}
+
+#LabelGoldText
+{
+    font-size: 30;
+    horizontal-align: center;
+    margin-top: 10px;
+    font-family: Goudy Trajan Medium;
+
+}
+
+#LabelXpMultiplierText
+{
+    font-size: 20;
+    horizontal-align: center;
+    margin-top: 20px;
+    font-family: Goudy Trajan Medium;
+}
+
+#LabelOptionsText
+{
+    font-size: 34;
+    horizontal-align: center;
+    font-family: Goudy Trajan Medium;
+    margin-top: 3px;
+}
+
+#LabelStartingGoldText
+{
+    font-size: 20;
+    font-family: Goudy Trajan Medium;
+    horizontal-align: center;
+    margin-top: 20px;
+}
+
+#LabelGoldMultiplierText
+{
+    font-size: 20;
+    font-family: Goudy Trajan Medium;
+    horizontal-align: center;
+    margin-top: 20px;
+}
+
+.GoldOptionsDropdown
+{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 200px;
+    horizontal-align: center;
+}
+
+

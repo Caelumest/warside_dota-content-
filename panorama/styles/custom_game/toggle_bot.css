@@ -1,0 +1,78 @@
+.ToggleButton
+{
+    width: 300px;
+    height: 46px;
+    color: white;
+    font-weight: bold;
+    font-family: Goudy Trajan Medium;
+    background-color: #333333;
+    margin-left: 100px;
+    margin-top: 65px;
+    border-radius:15px;
+    opacity: 0;
+    border: 2px solid #000;
+}
+
+#BotOptionsPanel
+{
+    margin-top: 115px;
+    margin-left: 100px;
+    text-align: center;
+    width: 300px;
+    height: 140px;
+    background-color: #333333;
+    border-radius:15px;
+    flow-children: down;
+    transition-property: opacity;
+    transition-delay: 0.0s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    opacity: 0;
+    border: 2px solid #000;
+}
+
+#Button
+{
+	width: 100%;
+	height: 100%;
+}
+
+#Button:hover {
+    background-color:#616161;
+}
+
+
+#Label
+{
+	font-size: 40;
+	horizontal-align: center;
+    margin-left: -30px;
+    margin-top: -4px;
+    
+}
+
+#LabelDif
+{
+    font-size: 34;
+    horizontal-align: center;
+    font-family: Goudy Trajan Medium;
+    margin-top: 10px;
+}
+
+#LabelGreen
+{
+    font-size: 40;
+    horizontal-align: center;
+    margin-left: -40px;
+    color: lightgreen;
+    margin-top: -3px;
+}
+
+#LabelRed
+{
+    font-size: 40;
+    horizontal-align: center;
+    margin-left: -40px;
+    color: red;
+    margin-top: -3px;
+}
