@@ -13,10 +13,12 @@
 	<Panel class="AddonLoadingRoot">
 		<Panel id="CustomBg" >
 			<Image src="file://{images}/custom_game/loading_screen/warsidetest.png" scaling="stretch-to-fit-preserve-aspect" />
+			<!--<Image src="file://{images}/heroes/npc_dota_hero_sage_ronin.png" scaling="stretch-to-fit-preserve-aspect" /> -->
 			<Panel id="HideOn"/>
 			<Button id="ToggleOptions" class="ToggleOptions" onactivate="OnOptionsPressed()" onload="SetMainOption()">
 				<Label id="LabelOptionsText" text="Options"/>
 			</Button>
+			
 			<Panel id="BotsOnOff" class="ToggleButton">
 				<Button id="Button" onactivate="OnButtonPressed()">
 					<Label id="Label" text="Bots:"/>

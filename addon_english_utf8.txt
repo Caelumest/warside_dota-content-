@@ -1,0 +1,489 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"DOTA_GameMode_15"		"WARSIDE"
+		"addon_game_name"			"Warside"
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------------------------------------------LEGION COMMANDER----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Demon Form----//
+		"DOTA_Tooltip_Ability_legion_demon_form"  					"DEMON FORM"  
+		"DOTA_Tooltip_Ability_legion_demon_form_Description"  		"Legion channels her power to call into her body a soul of a powerfull demon."
+		"DOTA_Tooltip_Ability_legion_demon_form_Note0" 				"It cant be purged."
+		"DOTA_Tooltip_Ability_legion_demon_form_Note1" 				"You can't die to health degeneration."
+		"DOTA_Tooltip_Ability_legion_demon_form_Lore" 				"Years have passed, but the demon OzVock still wants to claim what was stolen from him."
+		"DOTA_Tooltip_Ability_legion_demon_form_attack_rate"    	"ATTACK RATE:" 
+		"DOTA_Tooltip_Ability_legion_demon_form_bonus_health_regen" "HEALTH DEGEN:"
+		"DOTA_Tooltip_Ability_legion_demon_form_bonus_armor"		"ARMOR PENALTY:"
+		"DOTA_Tooltip_Ability_legion_demon_form_bonus_agi"			"BONUS AGILITY:"
+		"DOTA_Tooltip_modifier_legion_demon_form"					"DEMON FORM"
+		//------Human Form----//
+		"DOTA_Tooltip_Ability_remove_legion_demon_form"				"HUMAN FORM"
+		"DOTA_Tooltip_Ability_remove_legion_demon_form_Description" "Sends OzVock back to where he belongs, with all of his powers."
+		"DOTA_Tooltip_Ability_remove_legion_demon_form_Lore" 		"Another attempt to claim what is rightfully yours."
+		"DOTA_Tooltip_Ability_remove_legion_demon_form_Note0" 		"You can't die to health degeneration."
+		//------Courage----//
+		"DOTA_Tooltip_Ability_legion_courage"						"COURAGE"
+		"DOTA_Tooltip_Ability_legion_courage_Description"			"Give yourself or an ally the courage to stay in combat, giving a bonus armor and health regen."
+		"DOTA_Tooltip_Ability_legion_courage_lore"					"Years of battle taught the young lady what it really takes to win a battle."
+		"DOTA_Tooltip_Ability_legion_courage_bonus_armor"			"BONUS ARMOR:"
+		"DOTA_Tooltip_Ability_legion_courage_bonus_regen"			"BONUS REGEN:"
+		"DOTA_Tooltip_Ability_legion_courage_duration"				"DURATION:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_courage"								"COURAGE"
+			"DOTA_Tooltip_modifier_courage_description"					"This unit has increased armor and health regen from Legion."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Disintegrate----//
+		"DOTA_Tooltip_Ability_legion_desintegrate"					"DISINTEGRATE"
+		"DOTA_Tooltip_Ability_legion_desintegrate_Description"		"Uses of her exceptional speed to get around to enemies, inflicting damage on an area and deactivating the targeted enemy."
+		"DOTA_Tooltip_Ability_legion_desintegrate_Note0"			"Does not work on allies."
+		"DOTA_Tooltip_Ability_legion_desintegrate_edge_damage"		"DAMAGE:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_stun_duration"	"STUN DURATION:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_radius"			"RADIUS:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_distance"			"BLINK DISTANCE:"
+
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent"					"DISINTEGRATE"
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_Description"		"Uses of her exceptional speed to get around to enemies, inflicting damage on an area and deactivating the targeted enemy."
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_Note0"				"Does not work on allies."
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_edge_damage"		"DAMAGE:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_stun_duration"		"STUN DURATION:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_radius"			"RADIUS:"
+		"DOTA_Tooltip_Ability_legion_desintegrate_talent_distance"			"BLINK DISTANCE:"
+		//------Imprecise Blow----//
+		"DOTA_Tooltip_Ability_legion_imprecise_smash"				"IMPRECISE BLOW"
+		"DOTA_Tooltip_Ability_legion_imprecise_smash_description"	"Differs a blow to the targeted enemy, inflicting more damage if it is stunned."
+		"DOTA_Tooltip_Ability_legion_imprecise_smash_lore"			"Not yet accustomed to its new receptacle, OzVock feels more precise hitting a stopped target."
+		"DOTA_Tooltip_Ability_legion_imprecise_smash_normal_damage"	"DAMAGE:"
+		"DOTA_Tooltip_Ability_legion_imprecise_smash_max_damage"	"DAMAGE IF STUNNED:"
+		//------Demon Blood----//
+		"DOTA_Tooltip_Ability_demon_blood"							"DEMON BLOOD"
+		"DOTA_Tooltip_Ability_demon_blood_description"				"The Demon blood gives a bonus of agility and damage to its receptacle."
+		"DOTA_Tooltip_Ability_demon_blood_bonus_agi"				"AGILITY:"
+		"DOTA_Tooltip_Ability_demon_blood_bonus_damage"				"%DAMAGE:"
+		"DOTA_Tooltip_Ability_demon_blood_lore"						"The presence of OzVock already influences its bearer."
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_demon_blood"							"DEMON BLOOD"
+			"DOTA_Tooltip_modifier_demon_blood_description"				"OzVock is sharing a bit of his power with Legion."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------True Strength---//
+		"DOTA_Tooltip_Ability_legion_crit"							"TRUE STRENGTH"
+		"DOTA_Tooltip_Ability_legion_crit_description"				"OzVock has a chance to defer a stronger hit, which causes critical damage to the victim."
+		"DOTA_Tooltip_Ability_legion_crit_chance"					"%CRITICAL CHANCE:"
+		"DOTA_Tooltip_Ability_legion_crit_bonus_damage"				"%DAMAGE MULTIPLY:"
+		"DOTA_Tooltip_Ability_legion_crit_lore"						"OzVock can sometimes bring forth his true strength for a little while."
+		//------Expose Weakness----//
+		"DOTA_Tooltip_Ability_legion_expose_weakness"					"EXPOSE WEAKNESS"
+		"DOTA_Tooltip_Ability_legion_expose_weakness_description"		"Shows the target's weak spot, removing its armor for a short period of time."
+		"DOTA_Tooltip_Ability_legion_expose_weakness_armor_penalty"		"ARMOR PENALTY:"
+		"DOTA_Tooltip_Ability_legion_expose_weakness_duration"			"DURATION:"
+		"DOTA_Tooltip_Ability_legion_expose_weakness_lore"				"The enemy tries to hide, but her eyes can see the smallest flaws in the armor."
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_expose_weakness"									"WEAKNESS EXPOSED"
+			"DOTA_Tooltip_expose_weakness_description"						"This unit has decreased armor."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------------------------------------------DRAGON KNIGHT----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Escalate Force----//
+		"DOTA_Tooltip_Ability_dk_pull" 									"ESCALATE FORCE"
+		"DOTA_Tooltip_Ability_dk_pull_Description" 						"The Dragon Knight asleep inside the knight uses the distance on his favor to frighten his enemies."
+		"DOTA_Tooltip_Ability_dk_pull_Lore"								"Apparently a common fireball, but with an even greater destructive power when further from its target."
+		"DOTA_Tooltip_Ability_dk_pull_slow"								"%SLOW:"
+		"DOTA_Tooltip_Ability_dk_pull_slow_duration" 					"SLOW DURATION:"
+		"DOTA_Tooltip_Ability_dk_pull_damage_min"    					"MINIMUM DAMAGE:"
+		"DOTA_Tooltip_Ability_dk_pull_damage_max"	  					"MAXIMUM DAMAGE:"
+		"DOTA_Tooltip_Ability_dk_pull_pull_speed"						"PROJECTILE SPEED:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_pull_slow"								"SLOWED"
+			"DOTA_Tooltip_modifier_pull_slow_description"					"This unit is slowed down by Escalate Force from the dragon."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//	
+		//------Dragon's Gaze----//
+		"DOTA_Tooltip_Ability_dk_intimidate"							"DRAGON'S GAZE"
+		"DOTA_Tooltip_Ability_dk_intimidate_Description"				"Mark the target for a few seconds, increasing all damage dealt to it from any source."
+		"DOTA_Tooltip_Ability_dk_intimidate_Lore"						"Only the dragon's gaze sleeping on the knight is enough to weaken the enemy."
+		"DOTA_Tooltip_Ability_dk_intimidate_bonus_damage_taken"			"%BONUS DAMAGE:"
+		"DOTA_Tooltip_Ability_dk_intimidate_duration"					"DURATION:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_intimidate"								"GAZED"
+			"DOTA_Tooltip_modifier_intimidate_description"					"This unit is gazed by the Dragon Knight. It has all defenses reduced."
+			"DOTA_Tooltip_Ability_special_bonus_unique_lone_1"				"+6 seconds to Heritage duration"
+			"DOTA_Tooltip_Ability_special_bonus_unique_dk_1"				"+300 maximum damage to Escalate Force"
+			"DOTA_Tooltip_Ability_special_bonus_unique_dk_2"				"+5% spell amp per Dragon Blood stack"
+			"DOTA_Tooltip_Ability_special_bonus_unique_mk_1"				"+4 seconds illusion duration to Count On Yourself!"
+			"DOTA_Tooltip_Ability_special_bonus_unique_mk_2"				"+0.15 damage per mana lost to Monkey King Bar"
+			"DOTA_Tooltip_Ability_special_bonus_unique_legion_1"			"+600 range to Desintegrate/Can target allies"
+
+			"DOTA_Tooltip_Ability_item_aether_core"								"Aether Core"
+			"DOTA_Tooltip_Ability_item_aether_core_description"					"<h1>Passive: Aethereal Focus</h1>Increases targeted spell and item cast range by <font color='#FFF'>250</font>.\n\n<h1>Passive: Cooldown Reduction</h1>Reduces the cooldown time of all spells and items by <font color='#FFF'>25%</font>.\n\n<h1>Passive: Spell Lifesteal</h1><font color='#FFF'>25%</font> of spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type.<br><br>Lifesteal reduced to <font color='#FFF'>5%</font> against creeps. "
+			"DOTA_Tooltip_Ability_item_aether_core_lore"						"A combination made improperly, but so perfectly, that the magical sheen transcends the fragile glass in such a peculiar way, that anyone feels ready for a next fight."
+			"DOTA_Tooltip_Ability_item_aether_core_bonus_intelligence"			"+ Intelligence"
+			"DOTA_Tooltip_Ability_item_aether_core_bonus_mana_tooltip"			"+ Mana"
+			"DOTA_Tooltip_Ability_item_aether_core_bonus_health"				"+ Health"
+			"DOTA_Tooltip_Ability_item_aether_core_bonus_mana_regen_percentage"	"+ Mana regeneration"
+			"DOTA_Tooltip_Ability_item_aether_core_bonus_spell_amp"				"%+ Spell damage"
+
+			"DOTA_Tooltip_Ability_item_recipe_aether_core"						"Recipe: Aether Core"
+			"DOTA_Tooltip_Ability_item_recipe_stout_mail"						"Recipe: Casalmar Plate"
+
+			"DOTA_Tooltip_Ability_item_stout_mail"								"Casalmar Plate"	
+			"DOTA_Tooltip_Ability_item_stout_mail_description"					"<h1>Active: Damage Return</h1>For <font color='#FFF'>%return_duration%</font> seconds, duplicates any damage taken back to the unit that dealt the damage when activated.<br><br>Damage Returned: <font color='#FFF'>100%</font><br>Duration: <font color='#FFF'>%return_duration%</font>\n\n<h1>Passive: Damage Block</h1>Gives a <font color='#FFF'>100%</font> chance to block <font color='#FFF'>%damage_block_melee%</font> damage on melee heroes, and <font color='#FFF'>%damage_block_ranged%</font> damage on ranged.<br><br>Proc Chance: <font color='#FFF'>100%</font><br>Blocked Damage (Melee): <font color='#FFF'>%damage_block_melee%</font><br>Blocked Damage (Ranged): <font color='#FFF'>%damage_block_ranged%</font>\n\n<h1>Passive: Painful Posture</h1>Anyone who attacks you has <font color='#FFF'>%return_damage_pct_passive% % </font> of the damage returned to himself.<br><br>Damage Returned (Passive): <font color='#FFF'>%return_damage_pct_passive% %</font>"
+			"DOTA_Tooltip_Ability_item_stout_mail_lore"							"Anyone who confronted Casalmar was in serious trouble, the attacks of his opponents almost had no effect, and when they did, they seemed to be hurted more than him. The secret of his toughness was not known for sure... Until now."
+			"DOTA_Tooltip_Ability_item_stout_mail_bonus_armor"					"+ Armor"
+			"DOTA_Tooltip_Ability_item_stout_mail_bonus_intelligence"			"+ Intelligence"
+			"DOTA_Tooltip_Ability_item_stout_mail_bonus_damage"					"+ Damage"
+			"DOTA_Tooltip_Ability_item_stout_mail_bonus_str"					"+ Strength"
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Dragon Form----//
+		"DOTA_Tooltip_Ability_dk_dragon_form"							"DRAGON FORM"
+		"DOTA_Tooltip_Ability_dk_dragon_form_Description"				"Transforms into a powerful dragon, receiving a bonus of movement speed and attack range in exchange of strength."
+		"DOTA_Tooltip_Ability_dk_dragon_form_Lore"						"The dragon Slyrak sleeps within this armor, and the knight within the Dragon waits. Beware you do not wake them both."
+		"DOTA_Tooltip_Ability_dk_dragon_form_Note0"						"Can't be purged."
+		"DOTA_Tooltip_Ability_dk_dragon_form_range_tooltip"				"ATTACK RANGE:"
+		"DOTA_Tooltip_Ability_dk_dragon_form_bonus_strength"			"STRENGTH REDUCTION:"
+		"DOTA_Tooltip_Ability_dk_dragon_form_bonus_movespeed"			"BONUS MOVESPEED:"
+		"DOTA_Tooltip_modifier_dk_dragon_form"							"DRAGON FORM"
+		//------Human Form----//
+		"DOTA_Tooltip_Ability_remove_dk_dragon_form"					"HUMAN FORM"
+		"DOTA_Tooltip_Ability_remove_dk_dragon_form_Description"		"Puts Slyrak to sleep again inside its carrier."
+		"DOTA_Tooltip_Ability_remove_dk_dragon_form_lore"				"The dragon sleeps on the knight again, or is it the other way around?"
+		//------Fire Wave----//
+		"DOTA_Tooltip_Ability_dk_breathe_fire"							"FIRE WAVE"
+		"DOTA_Tooltip_Ability_dk_breathe_fire_description"				"Channels during 4 seconds a whirl of fire at the indicated location causing damage to the enemies hit, but in exchange, Slyrak suffer amplified damage for a brief period of time."
+		"DOTA_Tooltip_Ability_dk_breathe_fire_lore"						"Every worthy dragon dreams of manipulating fire that majestically as Slyrak."
+		"DOTA_Tooltip_Ability_dk_breathe_fire_channel_time"				"MAX CHANNELING TIME:"
+		"DOTA_Tooltip_Ability_dk_breathe_fire_total_damage"				"DPS:"
+		"DOTA_Tooltip_Ability_dk_breathe_fire_reduction_duration"		"AMPLIFIED DAMAGE TAKEN DURATION:"
+		"DOTA_Tooltip_Ability_dk_breathe_fire_bonus_damage_taken"		"%AMPLIFIED DAMAGE TAKEN:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_off_guard"								"OFF GUARD"
+			"DOTA_Tooltip_modifier_off_guard_description"					"Dragon has all resistences reduced after casting Fire Wave."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Dragon Blood----//
+		"DOTA_Tooltip_Ability_dk_dragon_blood"							"DRAGON BLOOD"
+		"DOTA_Tooltip_Ability_dk_dragon_blood_Description"				"Gives a bonus spell damage and mana regeneration to Slyrak for every 7% of life missing."
+		"DOTA_Tooltip_Ability_dk_dragon_blood_Lore"						"Those who say that dragons are magical creatures do not lie, but only a few survived to tell that their fury can elevate it to the extreme."
+		"DOTA_Tooltip_Ability_dk_dragon_blood_spell_amp_per_stack"		"%SPELL AMP PER STACK:"
+		"DOTA_Tooltip_Ability_dk_dragon_blood_mana_regen_per_stack"		"MANA REGEN PER STACK:"
+		"DOTA_Tooltip_Ability_dk_dragon_blood_Note0"					"This bonus does not apply in human form."
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_dragon_blood"							"DRAGON BLOOD"
+			"DOTA_Tooltip_modifier_dragon_blood_description"				"This unit has increased spell damage and mana regeneration depending on his current life."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Ignite Sword---//
+		"DOTA_Tooltip_Ability_dk_fire_sword"							"IGNITE SWORD"
+		"DOTA_Tooltip_Ability_dk_fire_sword_description"				"Ignite the sword with dragon flames, dealing damage per second and decreasing target attack speed."
+		"DOTA_Tooltip_Ability_dk_fire_sword_lore"						"A drink, and a burden. Combining the useful to the pleasant."
+		"DOTA_Tooltip_Ability_dk_fire_sword_tooltip_damage"				"DPS:"
+		"DOTA_Tooltip_Ability_dk_fire_sword_tooltip_duration"			"DURATION:"
+		"DOTA_Tooltip_Ability_dk_fire_sword_tooltip_slow_attack_speed"	"ATKSPEED SLOW:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_dk_fire_sword_debuff"					"IGNITED"
+			"DOTA_Tooltip_modifier_dk_fire_sword_debuff_description"		"Decreased attack speed and taking damage overtime."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Shield Stroke----//
+		"DOTA_Tooltip_Ability_dk_shield_push"							"SHIELD STROKE"
+		"DOTA_Tooltip_Ability_dk_shield_push_description"				"Differs a blow with an immeasurable strength on the target, causing damage, knockbacking and stunning."
+		"DOTA_Tooltip_Ability_dk_shield_push_lore"						"Sometimes a shield, sometimes a powerful weapon."
+		"DOTA_Tooltip_Ability_dk_shield_push_stun_duration"				"STUN DURATION:"
+		"DOTA_Tooltip_Ability_dk_shield_push_distance"					"KNOCKBACK DISTANCE:"
+		
+		//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------------------------------------------MONKEY KING----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+		//------To The Sky----//
+		"DOTA_Tooltip_Ability_mk_knockup"								"TO THE SKY"
+		"DOTA_Tooltip_Ability_mk_knockup_description"					"The Monkey King jumps up and land, dealing damage and stun to nearby enemies."
+		"DOTA_Tooltip_Ability_mk_knockup_lore"							"What every monkey should know how to do."
+		"DOTA_Tooltip_Ability_mk_knockup_stun_duration"					"STUN DURATION:"
+		"DOTA_Tooltip_Ability_mk_knockup_air_time"						"AIR TIME:"
+		"DOTA_Tooltip_Ability_mk_knockup_radius"						"AOE:"
+		"DOTA_Tooltip_Ability_mk_knockup_note0"							"You can attack or use abilities while in air."
+		//------Sage's Knowledge----//
+		"DOTA_Tooltip_Ability_mana_break_datadriven"					"SAGE'S KNOWLEDGE"
+		"DOTA_Tooltip_Ability_mana_break_datadriven_description"		"Your attacks hits the soul of the enemies, burning mana from them."
+		"DOTA_Tooltip_Ability_mana_break_datadriven_lore"				"Removing what thou don't seems to need."
+		"DOTA_Tooltip_Ability_mana_break_datadriven_damage_per_burn"	"DAMAGE PER MANA:"
+		"DOTA_Tooltip_Ability_mana_break_datadriven_mana_per_hit"		"MANA BURNED:"
+		"DOTA_Tooltip_Ability_mana_break_datadriven_note0"				"This bonus do applies on Sage Form."
+		//------Monkey King Bar----//
+		"DOTA_Tooltip_Ability_mk_mkb"									"MONKEY KING BAR"
+		"DOTA_Tooltip_Ability_mk_mkb_description"						"Monkey King shows the real potential of his weapon, giving him TRUE STRIKE, applying ministun on hit and bonus damage per mana lost from enemy."
+		"DOTA_Tooltip_Ability_mk_mkb_lore"								"Your weapon is thirsty for punishing those who do not have faith."
+		"DOTA_Tooltip_Ability_mk_mkb_duration"							"DURATION:"
+		"DOTA_Tooltip_Ability_mk_mkb_ministun"							"MINISTUN:"
+		"DOTA_Tooltip_Ability_mk_mkb_mana_void_damage_per_mana"			"DAMAGE PER MANA LOST:"
+		"DOTA_Tooltip_Ability_mk_mkb_note0"								"It can be purged."
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_mkb"										"MONKEY KING BAR"
+			"DOTA_Tooltip_modifier_mkb_description"							"The Monkey King Bar it's at total power."	
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Sage Form----//
+		"DOTA_Tooltip_Ability_mk_sage_form"								"SAGE FORM"
+		"DOTA_Tooltip_Ability_mk_sage_form_description"					"Monkey King calls his ancestors powers to manipulate their spirits in a material way."	
+		"DOTA_Tooltip_Ability_mk_sage_form_note0"						"It can't be purged."
+		"DOTA_Tooltip_Ability_mk_sage_form_lore"						"No one knows for sure from where Monkey King drew that much power, perhaps a gift of the Gods to the now considered one of them, or perhaps it is only a feature of the apes."
+		"DOTA_Tooltip_modifier_mk_sage_form"							"SAGE FORM"
+		//------Monkey Form----//
+		"DOTA_Tooltip_Ability_remove_mk_sage_form"						"MONKEY FORM"
+		"DOTA_Tooltip_Ability_remove_mk_sage_form_description"			"Returns the Monkey King to his normal form, with all of his powers."
+		"DOTA_Tooltip_Ability_remove_mk_sage_form_lore"					"A trickster who doesn't care much about anything or what no one thinks, but certainly knows how to take care of himself."
+		//------Doppelganger----//
+		"DOTA_Tooltip_Ability_mk_distraction"											"DOPPELGANGER"
+		"DOTA_Tooltip_Ability_mk_distraction_description"								"Turns invisible and leaves a copy of himself to trick the enemy and deals damage after hitting an enemy while invisible."
+		"DOTA_Tooltip_Ability_mk_distraction_lore"										"One of his dirty tricks to get rid of problems."
+		"DOTA_Tooltip_Ability_mk_distraction_bonus_damage"								"BONUS DAMAGE:"
+		"DOTA_Tooltip_Ability_mk_distraction_duration"									"INVISIBILITY DURATION:"
+		"DOTA_Tooltip_Ability_mk_distraction_illusion_duration"							"ILLUSION DURATION:"
+		"DOTA_Tooltip_Ability_mk_distraction_illusion_outgoing_tooltip"					"%ILLUSION DAMAGE:"
+		"DOTA_Tooltip_Ability_mk_distraction_illusion_incoming_damage_total_tooltip"	"%ILLUSION DAMAGE TAKEN:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_wind_walk_datadriven"									"INVISIBLE"
+			"DOTA_Tooltip_modifier_wind_walk_datadriven_description"						"You are invisible. If you attack you will be visible again and deal bonus damage."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Count on Yourself!----//
+		"DOTA_Tooltip_Ability_mk_staff"											"COUNT ON YOURSELF!"
+		"DOTA_Tooltip_Ability_mk_staff_description"								"From time to time your weapon charges, when it hits an enemy, inflicts damage, slow and creates an illusion."
+		"DOTA_Tooltip_Ability_mk_staff_lore"									"Nothing better than being able to count on yourself."
+		"DOTA_Tooltip_Ability_mk_staff_damage_tooltip"							"DAMAGE:"
+		"DOTA_Tooltip_Ability_mk_staff_slow"									"%SLOW:"
+		"DOTA_Tooltip_Ability_mk_staff_illusion_duration"						"ILLUSION DURATION:"
+		"DOTA_Tooltip_Ability_mk_staff_illusion_outgoing_tooltip"				"%ILLUSION DAMAGE:"
+		"DOTA_Tooltip_Ability_mk_staff_illusion_incoming_damage_total_tooltip"	"%ILLUSION DAMAGE TAKEN:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_mk_staff_debuff"									"SLOWED"
+			"DOTA_Tooltip_modifier_mk_staff_debuff_description"						"Slowed down by the Monkey King."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Vernal Dance----//
+		"DOTA_Tooltip_Ability_mk_doppleganger"							"VERNAL DANCE"
+		"DOTA_Tooltip_Ability_mk_doppleganger_description"				"Channels during 4 seconds, creating 1 illusion per second."
+		"DOTA_Tooltip_Ability_mk_doppleganger_lore"						"An ancient ritual to bring the ancestors to life, in an unusual way."
+		"DOTA_Tooltip_Ability_mk_doppleganger_illusion_duration"		"ILLUSION DURATION:"
+		"DOTA_Tooltip_Ability_mk_doppleganger_ilu_damage_tooltip"		"%ILLUSION DAMAGE:"
+		"DOTA_Tooltip_Ability_mk_doppleganger_ilu_incoming_tooltip"		"%ILLUSION DAMAGE TAKEN:"
+		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------------------------------------------KEEPER OF THE LIGHT----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		"DOTA_Tooltip_Ability_keeper_guardian_blessing"					"GUARDIAN'S BLESSING"
+		"DOTA_Tooltip_Ability_keeper_guardian_blessing_description"		"Covers an ally with a blessed light that heals overtime."
+		"DOTA_Tooltip_Ability_keeper_guardian_blessing_lore"			"A relief to those who had their bodies touched by these blessed lights."
+		"DOTA_Tooltip_Ability_keeper_guardian_blessing_regen"			"HEAL PER SECOND:"
+		"DOTA_Tooltip_Ability_keeper_guardian_blessing_duration"		"DURATION:"
+		"DOTA_Tooltip_modifier_heal"									"GUARDIAN'S BLESSING"
+		"DOTA_Tooltip_modifier_heal_description"						"Healing overtime."
+		//------Light Armor----//
+		"DOTA_Tooltip_Ability_keeper_light_armor"						"LIGHT ARMOR"
+		"DOTA_Tooltip_Ability_keeper_light_armor_description"			"Gives an ally or yourself an armor of light that hurts who attack the bearer."
+		"DOTA_Tooltip_Ability_keeper_light_armor_lore"					"What can save you, can hurt you too."
+		"DOTA_Tooltip_Ability_keeper_light_armor_duration"				"DURATION:"
+		"DOTA_Tooltip_Ability_keeper_light_armor_return_damage"			"BASE DAMAGE:"
+		"DOTA_Tooltip_Ability_keeper_light_armor_int_pct"				"%YOUR INT DAMAGE:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_light_aura"								"LIGHT ARMOR"
+			"DOTA_Tooltip_modifier_light_aura_description"					"Every time you get hit, the attacker will suffer magic damage."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Amplify Magic----//
+		"DOTA_Tooltip_Ability_keeper_amplify_magic"						"AMPLIFY MAGIC"
+		"DOTA_Tooltip_Ability_keeper_amplify_magic_description"			"Gives an ally or yourself mana and aplified magic damage."
+		"DOTA_Tooltip_Ability_keeper_amplify_magic_lore"				"What would a mage do without his powerful juice?"
+		"DOTA_Tooltip_Ability_keeper_amplify_magic_mana"				"MANA RESTORED:"
+		"DOTA_Tooltip_Ability_keeper_amplify_magic_magic_amp"			"%SPELL AMP:"
+		"DOTA_Tooltip_Ability_keeper_amplify_magic_duration"			"DURATION:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_magic_amp"								"MAGIC DAMAGE BONUS"
+			"DOTA_Tooltip_modifier_magic_amp_description"					"You have %magic_amp% amplified magic damage."
+			"DOTA_Tooltip_mana_blabla"										"MANA REGEN BONUS"
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Spiritual Form----//
+		"DOTA_Tooltip_Ability_spirit_form"								"SPIRITUAL FORM"
+		"DOTA_Tooltip_Ability_spirit_form_description"					"Turn yourself into your spiritual form giving all your allies +2 bonus mana regen."
+		"DOTA_Tooltip_Ability_spirit_form_lore"							"The light that would never harm anyone, on his hands, can do anything."
+		"DOTA_Tooltip_modifier_spirit_form"								"SPIRITUAL FORM"
+		//------Mortal Form----//
+		"DOTA_Tooltip_Ability_remove_spirit_form"						"MORTAL FORM"
+		"DOTA_Tooltip_Ability_remove_spirit_form_description"			"Back to your normal form with all of your normal abilities."
+		"DOTA_Tooltip_Ability_remove_spirit_form_lore"					"Sometimes a heart can be better than pure destruction."
+		//------Illuminate----//
+		"DOTA_Tooltip_Ability_illuminate_datadriven"					"ILLUMINATE"
+		"DOTA_Tooltip_Ability_illuminate_datadriven_description"		"Charges your staff with a ball of light that deal damage when it hit enemies."
+		"DOTA_Tooltip_Ability_illuminate_datadriven_lore"				"The light around it seems to focus on a single point on his staff."
+		"DOTA_Tooltip_Ability_illuminate_datadriven_max_channel_time"	"CHANNEL TIME:"
+		"DOTA_Tooltip_Ability_illuminate_datadriven_damage_per_second"	"DAMAGE PER SECOND:"
+		"DOTA_Tooltip_Ability_illuminate_datadriven_range"				"RANGE:"
+		//------Blinding Light----//
+		"DOTA_Tooltip_Ability_keeper_blinding"							"BLINDING LIGHT"
+		"DOTA_Tooltip_Ability_keeper_blinding_description"				"Call from the skies a blinding light that deals damage and give the target a chance to miss attacks based on Keeper's intelligence divided by 5."
+		"DOTA_Tooltip_Ability_keeper_blinding_lore"						"What to do when everything you have is a chance to try to get away?"
+		"DOTA_Tooltip_Ability_keeper_blinding_damage"					"DAMAGE:"
+		"DOTA_Tooltip_Ability_keeper_blinding_blind_pct_base"			"%BASE MISS CHANCE:"
+		"DOTA_Tooltip_Ability_keeper_blinding_int_divisor"				"DIVIDED INT ON BONUS:"
+		"DOTA_Tooltip_Ability_keeper_blinding_duration"					"DURATION:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_keeper_blinding"							"BLINDED"
+			"DOTA_Tooltip_modifier_keeper_blinding_description"				"This unit has a chance to miss attacks based on Keeper's INT."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Spiritual Entity----//
+		"DOTA_Tooltip_Ability_keeper_roar"								"SPIRITUAL ENTITY"
+		"DOTA_Tooltip_Ability_keeper_roar_description"					"Summons a elk of light after channeling for 2 seconds that follows the enemy and when hit do damage and stun."
+		"DOTA_Tooltip_Ability_keeper_roar_lore"							"A little help of your spiritual animal may come in handy."
+		"DOTA_Tooltip_Ability_keeper_roar_damage"						"DAMAGE:"
+		"DOTA_Tooltip_Ability_keeper_roar_stun_duration"				"STUN:"
+		"DOTA_Tooltip_Ability_keeper_roar_note0"						"It will not summon the Elk if the channel was interrupted."
+		//------Interrupt Illuminate----//
+		"DOTA_Tooltip_Ability_illuminate_end_datadriven"				"INTERRUPT ILLUMINATE"
+		"DOTA_Tooltip_Ability_illuminate_end_datadriven_description"	"Cancels the channeling of Illuminate."
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------------------------------------------LONE DRUID----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Savagery----//
+		"DOTA_Tooltip_Ability_lone_savagery"							"SAVAGERY"
+		"DOTA_Tooltip_Ability_lone_savagery_description"				"After <b><font color='#8c2002'>3</font></b> hits on the enemy, it will explode dealing damage to all nearby enemies and slowing them down."
+		"DOTA_Tooltip_Ability_lone_savagery_lore"						"Finding a blind spot can be difficult, but not for him."
+		"DOTA_Tooltip_Ability_lone_savagery_damage"						"DAMAGE:"
+		"DOTA_Tooltip_Ability_lone_savagery_slow_tooltip"				"%SLOW:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_stacks"									"SAVAGERY STACKS"
+			"DOTA_Tooltip_modifier_stacks_description"						"This unit is affected by Savagery from Lone."
+			"DOTA_Tooltip_modifier_savagery_slow"							"SAVAGERY SLOW"
+			"DOTA_Tooltip_modifier_savagery_slow_description"				"This unit is slowed down by Savagery."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Heritage----//
+		"DOTA_Tooltip_Ability_lone_heritage"							"HERITAGE"
+		"DOTA_Tooltip_Ability_lone_heritage_description"				"Gives all your current armor and health regen to an ally or doubles your own for a short period of time."
+		"DOTA_Tooltip_Ability_lone_heritage_lore"						"The gift of giving is in fact funny, coming from someone who has lost everything, and yet so, gives the only thing that still has."
+		"DOTA_Tooltip_Ability_lone_heritage_duration"					"DURATION:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_lone_heritage"							"HERITAGE"
+			"DOTA_Tooltip_modifier_lone_heritage_description"				"This unit has increased regeneration and armor inherited from lone."
+			"DOTA_Tooltip_modifier_lone_heritage_debuff"					"HERITAGE"
+			"DOTA_Tooltip_modifier_lone_heritage_debuff_description"		"Lone has decreased regeneration and armor due donating it to an unit."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Loneliness---//
+		"DOTA_Tooltip_Ability_lone_loneliness"							"LONELINESS"
+		"DOTA_Tooltip_Ability_lone_loneliness_description"				"Gives a passive bonus Strength and Attack speed to Lone, that will be doubled if there is no ally hero nearby."
+		"DOTA_Tooltip_Ability_lone_loneliness_lore"						"After so many lost friends, Lone feels more comfortable fighting alone."
+		"DOTA_Tooltip_Ability_lone_loneliness_radius"					"MAX ALLY DISTANCE:"
+		"DOTA_Tooltip_Ability_lone_loneliness_bonus_str2"				"STRENGTH BONUS:"
+		"DOTA_Tooltip_Ability_lone_loneliness_bonus_atkspeed2"			"%BONUS ATKSPEED:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_lone_loneliness2"						"LONELINESS"
+			"DOTA_Tooltip_modifier_lone_loneliness2_description"			"Doubled bonus cause there is no allied heroes nearby."
+		//------True Form----//
+		"DOTA_Tooltip_Ability_lone_true_form"							"TRUE FORM"
+		"DOTA_Tooltip_Ability_lone_true_form_description"				"Invokes the power of his ancestors, transforming into a powerful bear that has a melee attack."
+		"DOTA_Tooltip_Ability_lone_true_form_lore"						"Difficult to say, but it seems that every time he transforms its a totally different being that inhabits his body."
+		"DOTA_Tooltip_Ability_lone_true_form_attack_rate"				"Attack Rate:"
+		"DOTA_Tooltip_Ability_lone_true_form_bonus_armor"				"Bonus Armor:"
+		"DOTA_Tooltip_Ability_lone_true_form_bonus_hp"					"Bonus Health:"
+		"DOTA_Tooltip_Ability_lone_true_form_speed_loss"				"Speed Loss:"
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_lone_true_form"							"TRUE FORM"
+			"DOTA_Tooltip_modifier_lone_true_form_description"				""						
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Wild Roar----//
+		"DOTA_Tooltip_Ability_lone_taunt"								"WILD ROAR"
+		"DOTA_Tooltip_Ability_lone_taunt_description"					"Forces every enemy on the area to attack you for a while, gaining armor and health regen every time they hit you."
+		"DOTA_Tooltip_Ability_lone_taunt_lore"							"Nothing better for a predator than its victims running right at him."
+		"DOTA_Tooltip_Ability_lone_taunt_radius"						"AOE:"
+		"DOTA_Tooltip_Ability_lone_taunt_duration"						"DURATION:"
+		"DOTA_Tooltip_Ability_lone_taunt_armor"							"ARMOR PER STACK:"
+		"DOTA_Tooltip_Ability_lone_taunt_regen"							"REGEN PER STACK:"
+		"DOTA_Tooltip_Ability_lone_taunt_note0"							"The duration of the bonus restart every time you get hit."
+		"DOTA_Tooltip_modifier_buffs"									"WILD ROAR BONUS"
+		"DOTA_Tooltip_modifier_buffs_description"						"Increased armor and life regeneration."
+		"DOTA_Tooltip_modifier_taunt_enemy"								"TAUNTED"
+		"DOTA_Tooltip_modifier_taunt_enemy_description"					"This unit is forced to attack Lone."
+		//------Stomp----//
+		"DOTA_Tooltip_Ability_lone_clap"								"STOMP"
+		"DOTA_Tooltip_Ability_lone_clap_description"					"Smashes the ground above your feet, dealing damage and slowing down the enemies on the area."
+		"DOTA_Tooltip_Ability_lone_clap_lore"							"Along with this force, its possible to feel the fury of the one who once had a better reason to use it."
+		"DOTA_Tooltip_Ability_lone_clap_move_slow_tooltip"				"%SLOW:"
+		"DOTA_Tooltip_Ability_lone_clap_duration"						"SLOW DURATION:"
+		"DOTA_Tooltip_Ability_lone_clap_radius"							"AOE:"
+		"DOTA_Tooltip_modifier_slow"									"SLOWED"
+		"DOTA_Tooltip_modifier_slow_description"						"This unit is slowed by %move_slow_tooltip%%."
+		//------Battle Cry----//
+		"DOTA_Tooltip_Ability_lone_roar"								"BATTLE CRY"
+		"DOTA_Tooltip_Ability_lone_roar_description"					"Gives all allies on the area a bonus damage, and whoever is affected by the bonus kill an enemy, lone gains bonus damage for a short duration."
+		"DOTA_Tooltip_Ability_lone_roar_lore"							"The cry of hope can encourage even those who a long time have lost their faith."
+		"DOTA_Tooltip_Ability_lone_roar_bonus_damage"					"BONUS DAMAGE:"
+		"DOTA_Tooltip_Ability_lone_roar_duration"						"DURATION:"
+		"DOTA_Tooltip_Ability_lone_roar_damage_per_kill"				"DAMAGE PER KILL:"
+		"DOTA_Tooltip_Ability_lone_roar_radius"							"AOE:"
+		"DOTA_Tooltip_Ability_lone_roar_duration_stack"					"STACK DURATION:"
+		"DOTA_Tooltip_Ability_lone_roar_note0"							"The duration of the bonus restart every time someone kills an unit."
+		//-----MODIFIERS----------------------------------------------------------------------------------------------------------------------------------------//
+			"DOTA_Tooltip_modifier_damage_bonus"							"BATTLE CRY DAMAGE"
+			"DOTA_Tooltip_modifier_damage_bonus_description"				"This unit has increased damage from Lone."
+			"DOTA_Tooltip_modifier_bonus_kill"								"BONUS DAMAGE"
+			"DOTA_Tooltip_modifier_bonus_kill_description"					"Lone has increased damage because someone affected by battle cry killed a unit."
+		//------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//------Druid Form----//
+		
+		"DOTA_Tooltip_Ability_lone_druid_remove_true_form"				"DRUID FORM"
+		"DOTA_Tooltip_Ability_lone_druid_remove_true_form_description"	"Back to the druid form with all of its powers"
+		"DOTA_Tooltip_Ability_lone_druid_remove_true_form_lore"			"A bear and a druid, an unusual combination, but it can bring scary results."
+
+		//-------------------------------------------------JUGGERNAUT--------------------------------------------------------------//
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_1"				"+300 range to Ethereal Wave"
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_2"				"1 charge per 1.4% health lost to Insatiable Anger"
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_3"				"+1 atkspeed/1% crit damage per charge for Release Anger"
+
+		"npc_dota_hero_juggernaut"											"Krigler"
+		"npc_dota_hero_juggernaut_hype"										"Death can be an excuse for power, and a motive for killing can be anything the one who carries a sword seeks. Between this fine line separating the thread of life and death two souls are bound, but none of them with the knowledge of their origins, only memories, like shadows in the mist."
+
+		"DOTA_Tooltip_Ability_wave_blink"								"ETHEREAL WAVE"
+		"DOTA_Tooltip_Ability_wave_blink_description"					"Krigler uses the speed of his blade to open a rift between reality. Marks the first enemy hero in contact and destroy the projectile, that so he can chase him after contact with the projectile. Will deal a basic attack that procs orbs and itens when he reachs the target. The mark remains for 5 seconds and if you get stunned, the charge will stop."
+		"DOTA_Tooltip_Ability_wave_blink_note0"							"The projectile contact with enemy units (creeps, neutrals) does not destroy it, only deals damage"
+		"DOTA_Tooltip_Ability_wave_blink_distance"						"WAVE DISTANCE:"
+		"DOTA_Tooltip_Ability_wave_blink_radius"						"WAVE RADIUS:"
+		"DOTA_Tooltip_Ability_wave_blink_lore"							"The speed that goes beyond measures, or the help from another plane, what really matters is the success on the murder."
+
+		"DOTA_Tooltip_Ability_wave_blink_sub"							"CHARGE"
+		"DOTA_Tooltip_Ability_wave_blink_sub_description"				"Charge into the marked unit."
+
+		"DOTA_Tooltip_Ability_insatiable_anger"							"INSATIABLE ANGER"
+		"dota_tooltip_ability_insatiable_anger_description"				"<h1>Passive</h1> Every time Krigler takes damage he gains a charge of anger for every percentage of life lost. When he attacks, he will deal bonus damage, heal, and apply a slow according to the number of charges. If the number of charges is greater or equal to 20, he will stun the unit.\n\n<h1>Active</h1>Gains a fixed charge amount."
+		"DOTA_Tooltip_Ability_insatiable_anger_tresh_tooltip"			"%LIFE LOST FOR 1 CHARGE:"	
+		"DOTA_Tooltip_Ability_insatiable_anger_bonus_damage"			"BONUS DAMAGE PER CHARGE:"
+		"DOTA_Tooltip_Ability_insatiable_anger_lifesteal_buff"			"%BONUS LIFESTEAL PER CHARGE:"
+		"DOTA_Tooltip_Ability_insatiable_anger_slow_tooltip"			"%SLOW:"
+		"DOTA_Tooltip_Ability_insatiable_anger_slow_duration"			"SLOW DURATION PER CHARGE:"
+		"DOTA_Tooltip_Ability_insatiable_anger_stun_multiplier"			"STUN MULTIPLIER PER CHARGE:"
+		"DOTA_Tooltip_Ability_insatiable_anger_stack_bonus"				"BONUS CHARGE (Active):"
+		"DOTA_Tooltip_Ability_insatiable_anger_charges_duration"		"CHARGES DURATION:"	
+		"DOTA_Tooltip_Ability_insatiable_anger_note0"					"Can be purged."
+		"dota_tooltip_ability_insatiable_anger_lore"					"Anger opens doors that are sealed, with demons begging to leave."
+		"DOTA_Tooltip_modifier_anger_stacks"							"ANGER STACKS"	
+		"DOTA_Tooltip_modifier_anger_stacks_description"				"When attack, will deal bonus damage and heal a percentage based on the number of charges."
+		"DOTA_Tooltip_modifier_anger_slow"								"SLOWED"
+		"DOTA_Tooltip_modifier_marked"									"MARKED"
+		"DOTA_Tooltip_modifier_marked_description"						"Krigler can chase you."
+
+		"DOTA_Tooltip_Ability_pain_wave"								"LOTUS CONCUSSION"
+		"DOTA_Tooltip_Ability_pain_wave_description"					"Krigler charges his fury, for 1 second receives the lotus blessing, returning any targeted spell. After 1 second gains flying movement, being able to pass through cliffs and obstacles for 1 second. After 1 second differs a blow on the ground that stuns and deals damage to the enemies around him."
+		"DOTA_Tooltip_Ability_pain_wave_radius"							"RADIUS:"
+		"DOTA_Tooltip_Ability_pain_wave_stun_duration"					"STUN DURATION:"
+		"DOTA_Tooltip_Ability_pain_wave_lotus_duration"					"LOTUS BLESSING DURATION:"
+		"DOTA_Tooltip_Ability_pain_wave_lore"							"One of the few techniques still lingering in Krigler's memory. Would it be the most powerful?"
+
+		"DOTA_Tooltip_Ability_release_anger"							"RELEASE ANGER"
+		"DOTA_Tooltip_Ability_release_anger_description"				"Krigler becomes one with his anger, increasing his power exponentially. When active, you gain attack speed bonus and critical multiplier according to your anger charges. Doubles every charge of anger received when active regardless of its source.\\n\\nUpgradable by Aghanim's Scepter."
+		"DOTA_Tooltip_Ability_release_anger_duration"					"DURATION:"
+		"DOTA_Tooltip_Ability_release_anger_base_crit"					"%BASE CRITICAL:"
+		"DOTA_Tooltip_Ability_release_anger_base_crit_scepter"			"%SCEPTER BASE CRITICAL:"	
+		"DOTA_Tooltip_Ability_release_anger_duration_scepter"			"SCEPTER DURATION:"	
+		"DOTA_Tooltip_Ability_release_anger_atkspeed"					"%ATTACK SPEED PER CHARGE:"
+		"DOTA_Tooltip_Ability_release_anger_crit_damage"				"%CRITICAL MULTIPLIER PER CHARGE:"
+		"DOTA_Tooltip_Ability_release_anger_chance"						"%CRIT CHANCE:"
+		"DOTA_Tooltip_Ability_release_anger_note0"						"Can be purged."
+		"DOTA_Tooltip_Ability_release_anger_lore"						"Sometimes accepting what has been given to you from your enemies may be the most powerful of the virtues."
+		"DOTA_Tooltip_modifier_release_angers"							"ATTACK SPEED BONUS"
+		"DOTA_Tooltip_modifier_release_angerss"							"CRITICAL MULTIPLIER"
+		"DOTA_Tooltip_Ability_release_anger_aghanim_description"		"Doubles the duration and base critical multiplier."
+	}
+}
+

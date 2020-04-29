@@ -1,0 +1,161 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/custom_game/picking_screen.css" />
+	</styles>
+
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/modular.js" />
+		<include src="s2r://panorama/scripts/custom_game/hero_selection.js" />
+	</scripts>
+
+	<Panel class="PickingScreenMain" hittest="false">
+		<Panel hittest="true" id="BackgroundPanel">
+			<Panel hittest="true" id="Background"/>
+		</Panel>
+
+		<Panel hittest="true" id="PickingScreen">
+			<Panel id="ClassContain" class="ClassContainer" >
+				<Panel id="PickInfoPanel">
+					<Panel id="TeamRadiant">
+						<Panel class="TeamLabel">
+							<Label id="PickScreenTeamTitleRadiant" text="#team_title_radiant" />
+							<Label id="AverageMMRTeamRadiant" text="#average_mmr" />
+						</Panel>
+
+						<Panel id="LeftPlayers">
+							<!-- JS Inserts player elements here -->
+						</Panel>
+					</Panel>
+					<Panel id="PickTextPanel">
+						<Panel id='GameOptionsPanelContainer'>
+							<Panel id='PickTimerPanel'>
+								<Panel id='PickTimer'>
+									<Label id='TimerTxt' text="" />
+								</Panel>
+								<Label id="GameModeSelectText" class="GameModeSelectText" text="#addon_game_name" />
+							</Panel>
+
+							<Panel id='TopButtons'>
+								<Button id="ClosePickScreen_Force" onactivate="ClosePickScreen()" >
+									<Label id="ClosePickScreen_Force_Label" text="#close_picking_screen" />
+								</Button>
+							</Panel>
+						</Panel>
+					</Panel>
+
+					<Panel id="TeamDire">
+						<Panel class="TeamLabel">
+							<Label id="AverageMMRTeamDire" text="#average_mmr" />
+							<Label id="PickScreenTeamTitleDire" text="#team_title_dire" />
+						</Panel>
+						<Panel id="RightPlayers">
+							<!-- JS Inserts player elements here -->
+						</Panel>
+					</Panel>
+				</Panel>
+
+				<Panel id="PickList">
+					<!-- Strength Heroes -->
+					<Panel id="HeroListSTR" class="PickTypePanel">
+						<Panel class="PickListTitlePanel">
+<!--							<Image id="SeparatorImage" src="file://{images}/hud/pip_str.png"/> -->
+							<Label id="PickListTextSTR" class="PickListText" text="#hero_list_title_strength" />
+						</Panel>
+
+						<Panel id="PickListSeparator1" class="PickListTitlePanel" />
+					</Panel>
+
+					<!-- Agi Heroes -->
+					<Panel id="HeroListAGI" class="PickTypePanel">
+						<Panel class="PickListTitlePanel">
+<!--							<Image id="SeparatorImage" src="file://{images}/hud/pip_agi.png"/> -->>
+							<Label id="PickListTextAGI" class="PickListText" text="#hero_list_title_agility" />
+						</Panel>
+
+						<Panel id="PickListSeparator2" class="PickListTitlePanel" />
+					</Panel>
+
+					<!-- Int Heroes -->
+					<Panel id="HeroListINT" class="PickTypePanel">
+						<Panel class="PickListTitlePanel">
+<!--							<Image id="SeparatorImage" src="file://{images}/hud/pip_int.png"/> -->
+							<Label id="PickListTextINT" class="PickListText" text="#hero_list_title_intellect" />
+						</Panel>
+
+						<Panel id="PickListSeparator3" class="PickListTitlePanel" />
+					</Panel>
+				</Panel>
+
+				<!-- Post-pick screen (hero view) -->
+				<Panel id="PostPickScreen" />
+
+				<Panel id="BottomContainer">
+					<Panel id="MinimapContainer">
+						<DOTAMinimap id="minimap"/>
+
+						<Panel id="RandomButtonContainer">
+							<Button id="RandomPickBtn" onactivate="SelectRandomHero()"/>
+							<Label id="RandomPickBtnTxt" text="#random_pick_button" />
+						</Panel>
+					</Panel>
+
+					<Panel id="HeroDetailsContainer">
+						<Panel id="HeroDetailsPanel">
+							<Label id="PickedHeroName" text="#hero_name_filler"/>
+							<Panel id="PickedHeroAbilitiesPanel">
+								<Panel id="HeroAbilitiesParentPanel">
+									<DOTAAbilityImage id="PickedHeroAbility1" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname=""/>
+									<DOTAAbilityImage id="PickedHeroAbility2" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility3" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility4" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility5" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility6" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility7" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility8" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+									<DOTAAbilityImage id="PickedHeroAbility9" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" abilityname="" />
+<!--								<DOTAItemImage id="PickedHeroAghanim" class="PickedHeroAbility" onmouseout="DOTAHideAbilityTooltip()" itemname="item_ultimate_scepter" />
+									<DOTATalentDisplay id="StatBranch" class="PickedHeroAbility"/> -->
+								</Panel>
+							</Panel>
+
+							<Panel id="PickedHeroPanel">
+								<Button id="PickHeroBtn" onactivate="PickHero()" >
+									<Label id="PickHeroBtnTxt" text="#hero_name_filler" />
+								</Button>
+								<DOTAHeroImage id="PickedHeroImage" heroname="" />
+							</Panel>
+
+							<Panel id="PostPickScreenButtonContainer">
+								<Button id="RepickBtn" onactivate="RepickHero()" >
+									<Label id="RepickBtnTxt" text="#repick_button" />
+								</Button>
+
+								<Button id="EnterGameBtn" class="disabled" onactivate="EnterGame()" >
+									<Label id="EnterGameBtnTxt" text="" />
+								</Button>
+							</Panel>
+						</Panel>
+					</Panel>
+
+					<!-- Keep this dummy panel to keep the previous child centered -->
+					<Panel id="CustomPickList">
+						<Label id="HeroInfoName" class="HeroInfoLabelBig" />
+						<Label id="HeroInfoConcept" class="HeroInfoLabel" />
+						<Label id="HeroInfoCoder" class="HeroInfoLabel" />
+						<Label id="HeroInfoModel" class="HeroInfoLabel" />
+						<Label id="HeroInfoIcon" class="HeroInfoLabel" />
+						<Label id="HeroInfoAnimation" class="HeroInfoLabel" />
+						<Label id="HeroInfoSound" class="HeroInfoLabel" />
+						<Label id="HeroInfoVoicelines" class="HeroInfoLabel" />
+						<Label id="HeroInfoParticle" class="HeroInfoLabel" />
+						<Label id="HeroInfoHype" class="HeroInfoLabel" />
+					</Panel>
+				</Panel> <!-- End of middle section -->
+			</Panel>
+		</Panel>
+
+		<Panel id="LoadingPanel">
+			<Label id="LoadingLabel" text="#loading_pre_game"/>
+		</Panel>
+	</Panel>	
+</root>

@@ -1,0 +1,63 @@
+﻿"lang"
+{
+	"Language"      "portuguese"
+	"Tokens"
+	{
+		"DOTA_GameMode_15"		"WARSIDE"
+		"addon_game_name"			"Warside"
+		//-------------------------------------------------JUGGERNAUT--------------------------------------------------------------//
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_1"				"+300 de alcance para Onda Etérea"
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_2"				"1 carga para cada 1.4% de vida perdida para Fúria Insaciável"
+		"DOTA_Tooltip_Ability_special_bonus_unique_jugg_3"				"+1 atkspeed/1% dano crítico por carga para Libertar Fúria"
+
+		"npc_dota_hero_juggernaut"										"Krigler"
+		"npc_dota_hero_juggernaut_hype"									"A morte pode ser uma desculpa para o poder, e um motivo para matar pode ser tudo que aquele que empunha uma espada procura. Entre esta linha tênue que separa o fio da vida e da morte, duas almas estão ligadas, mas nenhuma delas com o conhecimento de suas origens, apenas lembranças, como sombras entre a névoa."
+
+		"DOTA_Tooltip_Ability_wave_blink"								"ONDA ETÉREA"
+		"DOTA_Tooltip_Ability_wave_blink_description"					"Krigler usa a velocidade de sua lâmina para abrir uma brecha entre a realidade. Marca o primeiro herói inimigo em contato e destrói o projétil, para que ele possa persegui-lo. Dará um ataque básico que processa orbs e itens quando ele alcança o alvo. A marca permanece por 5 segundos e se você for atordoado no processo, a perseguição será interrompida."
+		"DOTA_Tooltip_Ability_wave_blink_note0"							"O contato do projétil com unidades inimigas (creeps, neutrais) não destrói o projétil, apenas causa dano."
+		"DOTA_Tooltip_Ability_wave_blink_distance"						"DISTÂNCIA DA ONDA:"
+		"DOTA_Tooltip_Ability_wave_blink_radius"						"ÁREA DA ONDA:"
+		"DOTA_Tooltip_Ability_wave_blink_lore"							"A velocidade que vai além da compreensão, ou a ajuda de outro plano, o que realmente importa é o sucesso no assassinato."
+
+		"DOTA_Tooltip_Ability_wave_blink_sub"							"PERSEGUIR"
+		"DOTA_Tooltip_Ability_wave_blink_sub_description"				"Persegue a unidade marcada."
+
+		"DOTA_Tooltip_Ability_insatiable_anger"							"FÚRIA INSACIÁVEL"
+		"dota_tooltip_ability_insatiable_anger_description"				"<h1>Passiva</h1> Toda vez que receber dano, Kringler ganhará uma carga de fúria de acordo com a porcentagem de vida perdida. Quando atacar, ganhará um bonus de dano, se curará, e aplicará um retardo de acordo com o número de cargas. Se o número de cargas for maior ou igual a 20, atordoará a unidade atacada.\n\n<h1>Ativo</h1>Ganha uma quantidade de cargas fixas."
+		"DOTA_Tooltip_Ability_insatiable_anger_tresh_tooltip"			"%VIDA PERDIDA PARA 1 CARGA:"	
+		"DOTA_Tooltip_Ability_insatiable_anger_bonus_damage"			"BONUS DE DANO POR CARGA:"
+		"DOTA_Tooltip_Ability_insatiable_anger_lifesteal_buff"			"%ROUBO DE VIDA POR CARGA:"
+		"DOTA_Tooltip_Ability_insatiable_anger_slow_tooltip"			"%RETARDO:"
+		"DOTA_Tooltip_Ability_insatiable_anger_slow_duration"			"DURAÇÃO DO RETARDO POR CARGA"
+		"DOTA_Tooltip_Ability_insatiable_anger_stun_multiplier"			"DURAÇÃO DO STUN POR CARGA:"
+		"DOTA_Tooltip_Ability_insatiable_anger_stack_bonus"				"CARGAS BONUS (Quando Ativo):"
+		"DOTA_Tooltip_Ability_insatiable_anger_charges_duration"		"DURAÇÃO DAS CARGAS:"	
+		"DOTA_Tooltip_Ability_insatiable_anger_note0"					"Pode ser expurgado."
+		"dota_tooltip_ability_insatiable_anger_lore"					"A fúria abre portas que estão trancadas, com demônios implorando para sair."
+		"DOTA_Tooltip_modifier_anger_stacks"							"CARGAS DE FÚRIA"	
+		"DOTA_Tooltip_modifier_anger_stacks_description"				"Quando atacar, dará um bonus de dano e curará uma porcentagem de vida baseada no número de cargas."
+		"DOTA_Tooltip_modifier_anger_slow"								"RETARDADO"
+		"DOTA_Tooltip_modifier_marked"									"MARCADO"
+		"DOTA_Tooltip_modifier_marked_description"						"Krigler pode te perseguir."
+
+		"DOTA_Tooltip_Ability_pain_wave"								"CONCUSSÃO DE LÓTUS"
+		"DOTA_Tooltip_Ability_pain_wave_description"					"Krigler carrega sua fúria, por 1 segundo recebe a benção de lótus, retornando qualquer magia direcionada a ele. Após 1 segundo ganhará movimento desobstruído, podendo passar por obstáculos por 1 segundo. Após 1 segundo difere um golpe no solo que atordoará e dará dano aos inimigos à sua volta."
+		"DOTA_Tooltip_Ability_pain_wave_radius"							"ÁREA:"
+		"DOTA_Tooltip_Ability_pain_wave_stun_duration"					"DURAÇÃO DO STUN:"
+		"DOTA_Tooltip_Ability_pain_wave_lotus_duration"					"DURAÇÃO DA BENÇÃO:"
+		"DOTA_Tooltip_Ability_pain_wave_lore"							"One of the few techniques still lingering in Krigler's memory. Would it be the most powerful?"
+
+		"DOTA_Tooltip_Ability_release_anger"							"LIBERTAR FÚRIA"
+		"DOTA_Tooltip_Ability_release_anger_description"				"Krigler becomes one with his anger, increasing his power exponentially. When active, you gain attack speed bonus and critical multiplier according to your anger charges. Doubles every charge of anger received when active regardless of its source."
+		"DOTA_Tooltip_Ability_release_anger_duration"					"DURAÇÃO:"
+		"DOTA_Tooltip_Ability_release_anger_atkspeed"					"%ATKSPEED POR CARGA:"
+		"DOTA_Tooltip_Ability_release_anger_crit_damage"				"%MULTIPLICADOR POR CARGA:"
+		"DOTA_Tooltip_Ability_release_anger_chance"						"%CHANCE DE CRÍTICO:"
+		"DOTA_Tooltip_Ability_release_anger_note0"						"Pode ser expurgado."
+		"DOTA_Tooltip_Ability_release_anger_lore"						"Algumas vezes aceitar o que foi dado a você por seus inimigos pode ser a maior das virtudes."
+		"DOTA_Tooltip_modifier_release_angers"							"BONUS DE VELOCIDADE DE ATAQUE"
+		"DOTA_Tooltip_modifier_release_angerss"							"MULTIPLICADOR DE CRÍTICO"
+	}
+}
+

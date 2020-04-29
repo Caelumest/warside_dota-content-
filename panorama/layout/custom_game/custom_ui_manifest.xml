@@ -1,12 +1,70 @@
 <root>
 	<script>
-		$.Msg("Compiled Panorama")
+
+		//Hide Vanilla Picking Screen
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_TEAMS, false );			//Hero selection Radiant and Dire player lists.
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_GAME_NAME, false );		//Hero selection game mode name display.
+		GameUI.SetDefaultUIEnabled( DotaDefaultUIElement_t.DOTA_DEFAULT_UI_HERO_SELECTION_CLOCK, false );
+
+		// Add spectator slots. TODO: Disable when updating main mod
+
+		// Define override units to display for heroes
+		var overrideHeroPreview = {
+			npc_dota_hero_windrunner : 'npc_dota_neutral_kobold_taskmaster',
+			npc_dota_hero_treant : 'npc_dota_furion_treant',
+		};
+
+		update();
+
+		// Update to check if hero is picked yet
+		function update() {
+			var hero = Players.GetPlayerSelectedHero(Game.GetLocalPlayerID());
+			if (hero.length == 0) {
+				$.Schedule(0.1, update);
+			} else {
+				if (overrideHeroPreview[hero] !== undefined) {
+					replaceHeroPreview(overrideHeroPreview[hero]);
+				}
+			}
+		}
+
+		// Replace hero preview
+		function replaceHeroPreview(newUnit) {
+			var dotaHud = $.GetContextPanel().GetParent().GetParent();
+			var strategyScreen = dotaHud.FindChildTraverse("StrategyScreen");
+			var oldHeroScreen = strategyScreen.FindChildTraverse("HeroModel");
+			var cosmeticsPanel = dotaHud.FindChildTraverse("AvailableItems");
+
+			// Hide old screen
+			oldHeroScreen.style.visibility = "collapse";
+
+			// Hide cosmetics button
+			cosmeticsPanel.style.visibility = "collapse";
+
+			// Create new panel
+			var newPanel = $.CreatePanel("Panel", $.GetContextPanel(), "");
+			newPanel.hittest = false;
+			var panelStyle = "width: 1100px;"
+							+"height: 900px;"
+							+"margin-top: 64px;"
+							+"opacity-mask: url(\"s2r://panorama/images/masks/hero_model_opacity_mask_png.vtex\");"
+			newPanel.BCreateChildren("<DOTAScenePanel style='"+panelStyle+"' unit='"+newUnit+"' anti-alias='true' hittest='false' particleonly='false' acceptsinput='true' acceptsfocus='true' allowrotation='true' />");
+
+			// Add to strategy screen
+			newPanel.SetParent(strategyScreen);
+		}
+
+		//Custom Picking Screen hacks
+		var Parent = $.GetContextPanel().GetParent().GetParent()
+		var hudElements = Parent.FindChildTraverse("HUDElements");
+		var CustomUIRoot = Parent.FindChildTraverse("CustomUIRoot");
+		Parent.FindChildTraverse("PreGame").style.visibility = "collapse";
 	</script>
- 
-	<Panel>
-		<!--<CustomUIElement type="Hud" 				layoutfile="file://{resources}/layout/custom_game/camera_lock_button.xml" />-->
-		<!--<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/game_mode.xml" /> -->
-		<!--<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/toggle_bot.xml" /> -->
-		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/barebones_attachments.xml" />
-	</Panel>
+
+    <Panel>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/precache.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/hero_selection.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/companion.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/hud_main.xml" />
+    </Panel>
 </root>

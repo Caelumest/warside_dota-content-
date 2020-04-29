@@ -1,9 +1,37 @@
 <root>
 	<Panel style="visibility:collapse;">
-		<Panel id="container" style="visibility:collapse;">
-			<Image src="file://panorama/images/heroes/npc_dota_hero_sohei.png" hittest="false" />
-      <!-- <Image src="file://panorama/images/heroes/npc_dota_hero_electrician.png" hittest="false" /> <!-- Cookies: Find out why it doesn't precache the image, and then hide it just like the other one -->
-<!--		<Image src="file://panorama/images/heroes/icons/npc_dota_hero_sohei.png" hittest="false" /> -->
-		</Panel>
-	</Panel>
+        <Panel id="container" style="visibility:collapse;">
+        <!-- CAUTION: FRAGILE
+            <Image src="s2r://panorama/images/spellicons/sobek_voracious_appetite_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/spellicons/sobek_link_of_fortitude_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/spellicons/sobek_protective_hide_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/spellicons/sobek_absorption_png.vtex" hittest="false" />
+
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_custom_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_sobek_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_parasight_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_viscous_ooze_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_lathaal_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_warp_beast_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_collector_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_genos_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_zip_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_horus_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_hazel_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_horror_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_troy_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_scaldris_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_hellion_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/npc_dota_hero_mifune_png.vtex" hittest="false" />
+            
+            <Image src="s2r://panorama/images/custom_game/random_button_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/icons/npc_dota_hero_sobek_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/icons/npc_dota_hero_parasight_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/icons/npc_dota_hero_lathaal_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/icons/npc_dota_hero_viscous_ooze_png.vtex" hittest="false" />
+            <Image src="s2r://panorama/images/heroes/icons/npc_dota_hero_troy_png.vtex" hittest="false" />
+        -->
+
+        </Panel>
+    </Panel>
 </root>
